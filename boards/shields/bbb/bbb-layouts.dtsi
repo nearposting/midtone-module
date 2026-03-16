@@ -1,0 +1,14 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_bbb: physical_layout_bbb {
+        compatible = "zmk,physical-layout";
+        display-name = "bbb";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            , <&key_physical_attrs 100 100    0  100       0     0   100>
+            , <&key_physical_attrs 100 100    0  200       0     0   200>
+            , <&key_physical_attrs 100 100    0  300       0     0   300>
+            ;
+    };
+};

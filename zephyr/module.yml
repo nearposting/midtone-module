@@ -1,4 +1,4 @@
-name: zmk-keyboard-twotest
+name: zmk-keyboard-bbb
 build:
   settings:
     board_root: .
